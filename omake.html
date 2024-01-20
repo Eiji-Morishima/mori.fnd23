@@ -5,26 +5,29 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#000000">
-  <script type="text/javascript" src="script.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css" />
+   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
-    <nav>
-        <ul class = "main-nav">
-            <li><a href = "index.html">Main</a></li>
-            <li><a href = "prof.html">Profile</a></li>
-            <li><a href = "imp.html">Impressions</a></li>
-            
-        </ul>
-      </nav>
- <div class = "rectangle">  
-  <p id = "default">05:00</p></div> 
- <div  class = "button">
- <button id = "start">スタート</button>
- <button id = "stop">ストップ</button>
- <button id = "reset">リセット</button>
- </div>
-</body>
+  <nav>
+    <ul class="main-nav">
+      <li><a href="index.html">Main</a></li>
+      <li><a href="prof.html">Profile</a></li>
+      <li><a href="imp.html">Impressions</a></li>
 
+    </ul>
+  </nav>
+  <div class="omake">
+    <h1>爆弾処理</h1>
+    <img src="bomb.png" width="480px">
+    <p>赤か青　どちらか選んでください</p>
+  </div>
+  <div class="buttons">
+    <button class = "btn1" id = "btn1" type ="button">青を切る</button>
+    <button class = "btn2" id = "btn2" type ="button">赤を切る</button>
+  </div>
+  <div class = "rectangle" id ="result"></div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
 </html>
