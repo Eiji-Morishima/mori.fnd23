@@ -9,7 +9,7 @@ button1.addEventListener('click', function () {
     if (rdmNum >= 6) {
         result = "Safe, 解除成功です!!";
     } else if (rdmNum < 6) {
-        result = "Failed, 失敗です💀";
+        result = "Failed, 失敗です!";
     }
     document.getElementById("result").innerHTML = result;
 })
